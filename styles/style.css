@@ -397,3 +397,70 @@ body {
 .customers-right-section .btn-meet-customers .fa-arrow-right {
   margin-left: 8px;
 }
+
+/* community updates */
+
+.community-update-section {
+  text-align: center;
+}
+.community-update-section > .description {
+  width: 45%;
+  margin: 8px auto 0;
+}
+.community-update-section .cards-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.community-update-section .cards {
+  width: 30%;
+  aspect-ratio: 1/1;
+  background-color: aqua;
+  border-radius: 8px;
+  position: relative;
+}
+
+.community-update-section .cards img {
+  border-radius: 8px;
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
+
+.community-update-section .cards .content {
+  background-color: var(--neutral-silver);
+  border-radius: 20px;
+  box-shadow: 1px 1px 5px 0px rgba(200, 200, 200, 0.7), -1px 0px 20px 0px rgba(200, 200, 200, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 180px;
+  padding: 24px;
+  width: 80%;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* 
+.community-update-section .cards .content .description-content {
+} */
+.community-update-section .cards .content .btn-content {
+  cursor: pointer;
+  color: var(--brand-primary);
+  width: max-content;
+  margin: 0 auto;
+}
+
+.community-update-section .cards .content .btn-content::first-letter {
+  text-transform: uppercase;
+}
+
+.community-update-section .cards .content .btn-content .fa-arrow-right {
+  margin-left: 4px;
+  font-size: 1.2rem;
+}
