@@ -316,3 +316,84 @@ body {
   width: max-content;
   text-transform: capitalize;
 }
+
+.customers-section {
+  background-color: var(--neutral-silver);
+}
+
+.customers-section .flex-container {
+  align-items: stretch;
+}
+
+.customers-left-section {
+  width: 30%;
+  aspect-ratio: 1 / 1;
+}
+
+.customers-left-section .image-wrapper {
+  border-radius: 20px;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+}
+
+.customers-left-section img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.customers-right-section {
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.customers-right-section .description-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.customers-right-section .description-container .description {
+  text-align: justify;
+}
+
+.customers-right-section .description-container .author {
+  color: var(--brand-primary);
+}
+
+.customers-right-section .customers-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.customers-right-section .customers-container .customers-icon {
+  width: 36px;
+  aspect-ratio: 1 / 1;
+}
+
+.customers-right-section .btn-meet-customers {
+  border-radius: 4px;
+  color: var(--brand-primary);
+  cursor: pointer;
+  padding: 8px 16px;
+  transition: all 0.5s;
+}
+
+.customers-right-section .btn-meet-customers:hover {
+  background-color: var(--brand-primary);
+  color: var(--neutral-white);
+  transition: all 0.7s;
+}
+
+.customers-right-section .btn-meet-customers::first-letter {
+  text-transform: uppercase;
+}
+
+.customers-right-section .btn-meet-customers .fa-arrow-right {
+  margin-left: 8px;
+}

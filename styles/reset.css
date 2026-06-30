@@ -13,6 +13,5 @@ ul {
 }
 
 button {
-  border: none;
-  cursor: pointer;
+  all: unset;
 }
